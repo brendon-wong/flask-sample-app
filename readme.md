@@ -1,6 +1,6 @@
 # Flask Sample App
 
-This application provides a sample of the power of the Flask framework in the form of a fully operational one file Flask app, complete with many explanatory code comments.
+Flask-sample-app is a fully operational one file Flask app complete with many explanatory code comments. This app was created to provide a sample of the power and simplicity of the Flask framework. The ample code comments are so that anyone can look at the code and immediately understand what is going on without prior experience with Flask or even web development.
 
 This app and its supporting documentation is based on "A Minimal Application" from the Quickstart section of the official Flask documentation. The latest version of the documentation can be found [here](http://flask.pocoo.org/docs/latest/).
 
@@ -17,8 +17,8 @@ The following instructions are for MacOS. See the Flask documentation on
 1. Activate the virtual environment with `. venv/bin/activate`
 2. Tell the terminal the application to work with by exporting the FLASK_APP environment variable with `export FLASK_APP=sample.py`
 3. Run the app with `flask run`
-4. App is available at http://localhost:5000
+4. View the app in a web browser at http://localhost:5000
 
 ## Notes
-1. Enable debug mode with `export FLASK_DEBUG=1` before running the server; this will display code changes in the browser immediately without having to relaunch the Flask app
+1. Enable debug mode with `export FLASK_DEBUG=1` before running the server; this will display code changes in the browser immediately when changes to a file are saved without having to relaunch the Flask app
 2. The Flask server can be made externally visible with `flask run --host=0.0.0.0`

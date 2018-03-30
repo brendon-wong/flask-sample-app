@@ -1,7 +1,9 @@
 <!doctype html>
-<title>Brendon's Minimal Application</title>
+<title>Sample Flask App</title>
+<!-- If the "name" variable is passed into the Jinja template, greet the user by name -->
 {% if name %}
-<h1>Hello {{ name }}!</h1>
+<h1>Greetings {{ name }}!</h1>
 {% else %}
-<h1>Hello, World!</h1>
+<!-- Otherwise, display "Hello World!" -->
+<h1>Hello World!</h1>
 {% endif %}
